@@ -436,7 +436,7 @@ header .search a span {
 
 /* Start Footer Section */
 footer{
- 
+ margin: 0;
   width: 100%;
 
 }
