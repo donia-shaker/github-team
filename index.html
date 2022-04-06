@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,10 +12,7 @@
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700;800;900&display=swap" rel="stylesheet" />
     <!-- CSS File -->
     <link rel="stylesheet" href="Design-Folder/css/style2.css" />
     <link rel="stylesheet" href="Design-Folder/css/products.css" />
@@ -23,21 +21,22 @@
     <link rel="stylesheet" href="Design-Folder/css/style.css" />
 
     <link rel="stylesheet" href="Design-Folder/css/header,footer,book.css" />
-    
+
 
     <title>Electronic Library</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- start header -->
     <header>
-      <div class="container">
-        <nav>
-          <hr />
-          <i class="fas fa-bars first"></i>
-          <ul>
-            <li class="border">
-              <a>
-                <i class="fas fa-user"></i
+        <div class="container">
+            <nav>
+                <hr />
+                <i class="fas fa-bars first"></i>
+                <ul>
+                    <li class="border">
+                        <a>
+                            <i class="fas fa-user"></i
                 ><a id="show-model"> ادخل لحسابك</a> او<a
                   id="show-model-signup"
                 >
@@ -47,19 +46,21 @@
             </li>
             <li>
               <a href="#"><i class="fas fa-star"></i>ألرئيسية</a>
-            </li>
-            <li>
-              <a href="#"><i class="fas fa-truck"></i>من نحن</a>
-            </li>
-            <li>
-              <a href="#"><i class="fas fa-shield-alt"></i>اتصل بنا</a>
-            </li>
-            <li>
-              <a href="#"><i class="fas fa-info-circle"></i>ألمسأعدة</a>
-            </li>
-            <li>
-              <a href="#"
-                ><i class="fas fa-map-marker-alt"></i>سيأسة ألخصوصية</a
+                    </li>
+                    <li>
+                        <a href="payment.html"><i class="fas fa-star"></i>لدفع</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-truck"></i>من نحن</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-shield-alt"></i>اتصل بنا</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-info-circle"></i>ألمسأعدة</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-map-marker-alt"></i>سيأسة ألخصوصية</a
               >
             </li>
             <li>
@@ -78,1943 +79,1868 @@
                   >English</label
                 ><i class="fas fa-language"></i
               ></a>
-            </li>
-          </ul>
-          <hr />
-        </nav>
-        <!-- end nav -->
-        <!-- add model -->
-        <div class="model" id="model">
-          <div class="model-content">
-            <iframe id="signup" src="" frameborder="0"></iframe>
-          </div>
-        </div>
-        <!-- start Search -->
-        <div class="search">
-          <img src="Design-Folder/images/logo.PNG" alt="" />
-          <div class="input-search">
-            <input
-              type="search"
-              id="searchbar"
-              placeholder="ابحث"
-              onkeyup="searchBook()"
-            />
-            <i class="fas fa-search"></i>
-          </div>
-          <a href="Pages/checkout.html"
-            ><span id="counter"></span
+                    </li>
+                </ul>
+                <hr />
+            </nav>
+            <!-- end nav -->
+            <!-- add model -->
+            <div class="model" id="model">
+                <div class="model-content">
+                    <iframe id="signup" src="" frameborder="0"></iframe>
+                </div>
+            </div>
+            <!-- start Search -->
+            <div class="search">
+                <img src="Design-Folder/images/logo.PNG" alt="" />
+                <div class="input-search">
+                    <input type="search" id="searchbar" placeholder="ابحث" onkeyup="searchBook()" />
+                    <i class="fas fa-search"></i>
+                </div>
+                <a href="Pages/checkout.html"><span id="counter"></span
             ><i class="fas fa-cart-plus" id="count"></i
           ></a>
+            </div>
+            <!-- end search -->
         </div>
-        <!-- end search -->
-      </div>
     </header>
     <!-- Start Slider Section -->
     <section class="slide-show">
-      <div class="container">
-        <div class="slider">
-          <img src="Design-Folder/images/slide-one.jpg" alt="" />
-        </div>
-        <div class="slider">
-          <img src="Design-Folder/images/slide-two.jpg" alt="" />
-        </div>
-        <div class="slider">
-          <img src="Design-Folder/images/slide-three.jpg" alt="" />
-        </div>
-        <div class="slider">
-          <img src="Design-Folder/images/slide-four.jpg" alt="" />
-        </div>
-        <div class="slider">
-          <img src="Design-Folder/images/slide-five.jpg" alt="" />
-        </div>
-        <a class="prev" onclick="plusSlides(1)"
-          ><i class="fas fa-chevron-left"></i
+        <div class="container">
+            <div class="slider">
+                <img src="Design-Folder/images/slide-one.jpg" alt="" />
+            </div>
+            <div class="slider">
+                <img src="Design-Folder/images/slide-two.jpg" alt="" />
+            </div>
+            <div class="slider">
+                <img src="Design-Folder/images/slide-three.jpg" alt="" />
+            </div>
+            <div class="slider">
+                <img src="Design-Folder/images/slide-four.jpg" alt="" />
+            </div>
+            <div class="slider">
+                <img src="Design-Folder/images/slide-five.jpg" alt="" />
+            </div>
+            <a class="prev" onclick="plusSlides(1)"><i class="fas fa-chevron-left"></i
         ></a>
-        <a class="next" onclick="plusSlides(-1)"
-          ><i class="fas fa-chevron-right"></i
+            <a class="next" onclick="plusSlides(-1)"><i class="fas fa-chevron-right"></i
         ></a>
-        <div class="dots">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>
-          <span class="dot" onclick="currentSlide(5)"></span>
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
         </div>
-      </div>
-      
+
     </section>
 
 
     <!-- sections start -->
     <section class="sections container">
-      <h2>تصفح حسب القسم</h2>
-      <div class="all-sections-with-arrow">
-        <img
-          src="Design-Folder/images/svgs/rightArrow.svg"
-          style="width: 20px; height: 20px"
-          alt=""
-        />
-        <div class="all-sections">
-          <div class="section">
-            <img src="Design-Folder/images/svgs/svgexport-45.svg" alt="" />
-            <p>دين</p>
-          </div>
+        <h2>تصفح حسب القسم</h2>
+        <div class="all-sections-with-arrow">
+            <img src="Design-Folder/images/svgs/rightArrow.svg" style="width: 20px; height: 20px" alt="" />
+            <div class="all-sections">
+                <div class="section">
+                    <img src="Design-Folder/images/svgs/svgexport-45.svg" alt="" />
+                    <p>دين</p>
+                </div>
 
-          <div class="section">
-            <img src="Design-Folder/images/svgs/svgexport-41.svg" alt="" />
-            <p>تاريخ</p>
-          </div>
+                <div class="section">
+                    <img src="Design-Folder/images/svgs/svgexport-41.svg" alt="" />
+                    <p>تاريخ</p>
+                </div>
 
-          <div class="section">
-            <img src="Design-Folder/images/svgs/svgexport-39.svg" alt="" />
-            <p>روايات</p>
-          </div>
+                <div class="section">
+                    <img src="Design-Folder/images/svgs/svgexport-39.svg" alt="" />
+                    <p>روايات</p>
+                </div>
 
-          <div class="section">
-            <img src="Design-Folder/images/svgs/svgexport-42.svg" alt="" />
-            <p>سياسة</p>
-          </div>
+                <div class="section">
+                    <img src="Design-Folder/images/svgs/svgexport-42.svg" alt="" />
+                    <p>سياسة</p>
+                </div>
 
-          <div class="section">
-            <img src="Design-Folder/images/svgs/svgexport-44.svg" alt="" />
-            <p>اقتصاد</p>
-          </div>
+                <div class="section">
+                    <img src="Design-Folder/images/svgs/svgexport-44.svg" alt="" />
+                    <p>اقتصاد</p>
+                </div>
 
-          <div class="section">
-            <img src="Design-Folder/images/svgs/svgexport-46.svg" alt="" />
-            <p>العاب</p>
-          </div>
+                <div class="section">
+                    <img src="Design-Folder/images/svgs/svgexport-46.svg" alt="" />
+                    <p>العاب</p>
+                </div>
 
-          <div class="section">
-            <img src="Design-Folder/images/svgs/svgexport-47.svg" alt="" />
-            <p>تربية</p>
-          </div>
+                <div class="section">
+                    <img src="Design-Folder/images/svgs/svgexport-47.svg" alt="" />
+                    <p>تربية</p>
+                </div>
+            </div>
+            <img src="Design-Folder/images/svgs/leftArrow.svg" style="width: 20px; height: 20px" alt="" />
         </div>
-        <img
-          src="Design-Folder/images/svgs/leftArrow.svg"
-          style="width: 20px; height: 20px"
-          alt=""
-        />
-      </div>
     </section>
 
     <!-- sections end -->
 
     <!-- ads picture start -->
     <section class="container ads-pic">
-      <div class="container-four-img">
-        <img src="Design-Folder/images/ad1.jpg" alt="" />
-        <img src="Design-Folder/images/ad5.jpg" alt="" />
-        <img src="Design-Folder/images/ad2.jpg" alt="" />
-        <img src="Design-Folder/images/ad3.jpg" alt="" />
-      </div>
-      <div class="container-one-img">
-        <img src="Design-Folder/imagesad4.jpg" alt="" />
-      </div>
+        <div class="container-four-img">
+            <img src="Design-Folder/images/ad1.jpg" alt="" />
+            <img src="Design-Folder/images/ad5.jpg" alt="" />
+            <img src="Design-Folder/images/ad2.jpg" alt="" />
+            <img src="Design-Folder/images/ad3.jpg" alt="" />
+        </div>
+        <div class="container-one-img">
+            <img src="Design-Folder/imagesad4.jpg" alt="" />
+        </div>
     </section>
     <!-- ads picture end -->
 
     <section class="container all-contents-product-page">
-      <div class="all-items product-page">
-        <div class="open-all">
-          <p>العروض الحالية</p>
-          <a href="templates/category.html">عرض الكل</a>
+        <div class="all-items product-page">
+            <div class="open-all">
+                <p>العروض الحالية</p>
+                <a href="templates/category.html">عرض الكل</a>
+            </div>
+            <div class="all-item-with-arrows">
+                <img src="Design-Folder/images/svgs/rightArrow.svg" style="width: 20px; height: 20px" alt="" />
+                <div class="current-offers">
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book2.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>‎قصص من وحي الواقع‎‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="timer">
+                                <p>الوقت المتبقي:</p>
+                                <p class="clock">12:33:44</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="timer">
+                                <p>الوقت المتبقي:</p>
+                                <p class="clock">12:33:44</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="timer">
+                                <p>الوقت المتبقي:</p>
+                                <p class="clock">12:33:44</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="timer">
+                                <p>الوقت المتبقي:</p>
+                                <p class="clock">12:33:44</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="timer">
+                                <p>الوقت المتبقي:</p>
+                                <p class="clock">12:33:44</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="Design-Folder/images/svgs/leftArrow.svg" style="width: 20px; height: 20px" alt="" />
+            </div>
         </div>
-        <div class="all-item-with-arrows">
-          <img
-            src="Design-Folder/images/svgs/rightArrow.svg"
-            style="width: 20px; height: 20px"
-            alt=""
-          />
-          <div class="current-offers">
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book2.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>‎قصص من وحي الواقع‎‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
 
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
+        <div class="all-items product-page">
+            <div class="open-all">
+                <p>الكتب الدينية</p>
+                <a href="templates/category.html">عرض الكل</a>
+            </div>
+            <div class="all-item-with-arrows">
+                <img src="Design-Folder/images/svgs/rightArrow.svg" style="width: 20px; height: 20px" alt="" />
+                <div class="current-offers">
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book2.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>‎قصص من وحي الواقع‎‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
                         <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
                       </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-                <div class="timer">
-                  <p>الوقت المتبقي:</p>
-                  <p class="clock">12:33:44</p>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
 
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
                         <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
                       </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-                <div class="timer">
-                  <p>الوقت المتبقي:</p>
-                  <p class="clock">12:33:44</p>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
 
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
                         <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
                       </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-                <div class="timer">
-                  <p>الوقت المتبقي:</p>
-                  <p class="clock">12:33:44</p>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
 
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
                         <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
                       </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-                <div class="timer">
-                  <p>الوقت المتبقي:</p>
-                  <p class="clock">12:33:44</p>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
 
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
                         <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
                       </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="timer">
-                  <p>الوقت المتبقي:</p>
-                  <p class="clock">12:33:44</p>
-                </div>
-              </div>
+                <img src="Design-Folder/images/svgs/leftArrow.svg" style="width: 20px; height: 20px" alt="" />
             </div>
-          </div>
-          <img
-            src="Design-Folder/images/svgs/leftArrow.svg"
-            style="width: 20px; height: 20px"
-            alt=""
-          />
         </div>
-      </div>
 
-      <div class="all-items product-page">
-        <div class="open-all">
-          <p>الكتب الدينية</p>
-          <a href="templates/category.html">عرض الكل</a>
+        <div class="all-items product-page">
+            <div class="open-all">
+                <p>الكتب التاريخية</p>
+                <a href="templates/category.html">عرض الكل</a>
+            </div>
+            <div class="all-item-with-arrows">
+                <img src="Design-Folder/images/svgs/rightArrow.svg" style="width: 20px; height: 20px" alt="" />
+                <div class="current-offers">
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book2.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>‎قصص من وحي الواقع‎‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="Design-Folder/images/svgs/leftArrow.svg" style="width: 20px; height: 20px" alt="" />
+            </div>
         </div>
-        <div class="all-item-with-arrows">
-          <img
-            src="Design-Folder/images/svgs/rightArrow.svg"
-            style="width: 20px; height: 20px"
-            alt=""
-          />
-          <div class="current-offers">
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book2.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>‎قصص من وحي الواقع‎‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
 
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
+        <div class="all-items product-page">
+            <div class="open-all">
+                <p>السياسية</p>
+                <a href="templates/category.html">عرض الكل</a>
+            </div>
+            <div class="all-item-with-arrows">
+                <img src="Design-Folder/images/svgs/rightArrow.svg" style="width: 20px; height: 20px" alt="" />
+                <div class="current-offers">
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book2.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>‎قصص من وحي الواقع‎‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
                         <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
                       </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
 
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
                         <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
                       </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
 
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
                         <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
                       </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
 
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
                         <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
                       </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
 
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
                         <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
                       </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <img src="Design-Folder/images/svgs/leftArrow.svg" style="width: 20px; height: 20px" alt="" />
             </div>
-          </div>
-          <img
-            src="Design-Folder/images/svgs/leftArrow.svg"
-            style="width: 20px; height: 20px"
-            alt=""
-          />
         </div>
-      </div>
 
-      <div class="all-items product-page">
-        <div class="open-all">
-          <p>الكتب التاريخية</p>
-          <a href="templates/category.html">عرض الكل</a>
+        <div class="all-items product-page">
+            <div class="open-all">
+                <p>الاقتصاد</p>
+                <a href="templates/category.html">عرض الكل</a>
+            </div>
+            <div class="all-item-with-arrows">
+                <img src="Design-Folder/images/svgs/rightArrow.svg" style="width: 20px; height: 20px" alt="" />
+                <div class="current-offers">
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book2.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>‎قصص من وحي الواقع‎‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="Design-Folder/images/svgs/leftArrow.svg" style="width: 20px; height: 20px" alt="" />
+            </div>
         </div>
-        <div class="all-item-with-arrows">
-          <img
-            src="Design-Folder/images/svgs/rightArrow.svg"
-            style="width: 20px; height: 20px"
-            alt=""
-          />
-          <div class="current-offers">
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book2.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>‎قصص من وحي الواقع‎‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
 
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
+        <div class="all-items product-page">
+            <div class="open-all">
+                <p>الطبخ</p>
+                <a href="templates/category.html">عرض الكل</a>
+            </div>
+            <div class="all-item-with-arrows">
+                <img src="Design-Folder/images/svgs/rightArrow.svg" style="width: 20px; height: 20px" alt="" />
+                <div class="current-offers">
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book2.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>‎قصص من وحي الواقع‎‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
                         <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
                       </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
 
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
                         <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
                       </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
 
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
                         <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
                       </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
 
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
                         <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
                       </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
 
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
                         <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
                       </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <img src="Design-Folder/images/svgs/leftArrow.svg" style="width: 20px; height: 20px" alt="" />
             </div>
-          </div>
-          <img
-            src="Design-Folder/images/svgs/leftArrow.svg"
-            style="width: 20px; height: 20px"
-            alt=""
-          />
         </div>
-      </div>
 
-      <div class="all-items product-page">
-        <div class="open-all">
-          <p>السياسية</p>
-          <a href="templates/category.html">عرض الكل</a>
+        <div class="all-items product-page">
+            <div class="open-all">
+                <p>أفضل الروايات الرومانسية</p>
+                <a href="templates/category.html">عرض الكل</a>
+            </div>
+            <div class="all-item-with-arrows">
+                <img src="Design-Folder/images/svgs/rightArrow.svg" style="width: 20px; height: 20px" alt="" />
+                <div class="current-offers">
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book2.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>‎قصص من وحي الواقع‎‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img-container">
+                            <a href="templates/book.html">
+                                <img src="Design-Folder/images/book1front.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <h2>
+                                    <a href="templates/book.html">
+                                        <p>لانك الله رحلة الى السماء السابعة‎</p>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div class="price-box">
+                                <div class="price">
+                                    <p>17.54</p>
+
+                                    <span class="price_currency"> رس </span>
+                                </div>
+                            </div>
+                            <div class="book-link">
+                                صيغ أخرى
+                                <span>كتاب الكتروني</span>
+                            </div>
+                            <div class="actions">
+                                <ul class="add-to-links">
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/star.svg" alt="" />
+                                    </li>
+                                    <li class="add-to-links-item red-basket">
+                                        <button class="btn-card">
+                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
+                      </button>
+                                    </li>
+                                    <li class="add-to-links-item">
+                                        <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="Design-Folder/images/svgs/leftArrow.svg" style="width: 20px; height: 20px" alt="" />
+            </div>
         </div>
-        <div class="all-item-with-arrows">
-          <img
-            src="Design-Folder/images/svgs/rightArrow.svg"
-            style="width: 20px; height: 20px"
-            alt=""
-          />
-          <div class="current-offers">
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book2.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>‎قصص من وحي الواقع‎‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <img
-            src="Design-Folder/images/svgs/leftArrow.svg"
-            style="width: 20px; height: 20px"
-            alt=""
-          />
-        </div>
-      </div>
-
-      <div class="all-items product-page">
-        <div class="open-all">
-          <p>الاقتصاد</p>
-          <a href="templates/category.html">عرض الكل</a>
-        </div>
-        <div class="all-item-with-arrows">
-          <img
-            src="Design-Folder/images/svgs/rightArrow.svg"
-            style="width: 20px; height: 20px"
-            alt=""
-          />
-          <div class="current-offers">
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book2.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>‎قصص من وحي الواقع‎‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <img
-            src="Design-Folder/images/svgs/leftArrow.svg"
-            style="width: 20px; height: 20px"
-            alt=""
-          />
-        </div>
-      </div>
-
-      <div class="all-items product-page">
-        <div class="open-all">
-          <p>الطبخ</p>
-          <a href="templates/category.html">عرض الكل</a>
-        </div>
-        <div class="all-item-with-arrows">
-          <img
-            src="Design-Folder/images/svgs/rightArrow.svg"
-            style="width: 20px; height: 20px"
-            alt=""
-          />
-          <div class="current-offers">
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book2.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>‎قصص من وحي الواقع‎‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <img
-            src="Design-Folder/images/svgs/leftArrow.svg"
-            style="width: 20px; height: 20px"
-            alt=""
-          />
-        </div>
-      </div>
-
-      <div class="all-items product-page">
-        <div class="open-all">
-          <p>أفضل الروايات الرومانسية</p>
-          <a href="templates/category.html">عرض الكل</a>
-        </div>
-        <div class="all-item-with-arrows">
-          <img
-            src="Design-Folder/images/svgs/rightArrow.svg"
-            style="width: 20px; height: 20px"
-            alt=""
-          />
-          <div class="current-offers">
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book2.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>‎قصص من وحي الواقع‎‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img-container">
-                <a href="templates/book.html">
-                  <img src="Design-Folder/images/book1front.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <div class="product-name">
-                  <h2>
-                    <a href="templates/book.html">
-                      <p>لانك الله رحلة الى السماء السابعة‎</p>
-                    </a>
-                  </h2>
-                </div>
-                <div class="price-box">
-                  <div class="price">
-                    <p>17.54</p>
-
-                    <span class="price_currency"> رس </span>
-                  </div>
-                </div>
-                <div class="book-link">
-                  صيغ أخرى
-                  <span>كتاب الكتروني</span>
-                </div>
-                <div class="actions">
-                  <ul class="add-to-links">
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/star.svg" alt="" />
-                    </li>
-                    <li class="add-to-links-item red-basket">
-                      <button class="btn-card">
-                        <img src="Design-Folder/images/svgs/red-basket.svg" alt="" />
-                      </button>
-                    </li>
-                    <li class="add-to-links-item">
-                      <img src="Design-Folder/images/svgs/twoarrows.svg" alt="" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <img
-            src="Design-Folder/images/svgs/leftArrow.svg"
-            style="width: 20px; height: 20px"
-            alt=""
-          />
-        </div>
-      </div>
     </section>
-    <<<<<<< footer
-     <!--
-            Footer
-        -->
+    <<<<<<< footer <!-- Footer -->
         <footer>
-          <section>
-              <!--
+            <section>
+                <!--
           Top Footer
       -->
-              <div class="footer-container">
-                  <div class="footer-first-block-container">
+                <div class="footer-container">
+                    <div class="footer-first-block-container">
 
-                      <div class="footer-form-container">
-                          <h4>انظم الى نشرتنا البريدية</h4>
-                          <hr class="form-hr">
-                          <form class="form" name="post-form" action="#">
+                        <div class="footer-form-container">
+                            <h4>انظم الى نشرتنا البريدية</h4>
+                            <hr class="form-hr">
+                            <form class="form" name="post-form" action="#">
 
-                              <div class="input-container">
+                                <div class="input-container">
 
-                                  <input class="email" type="email" placeholder="ادخل بريدك الالكتروني">
-                                  <svg class="email-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                      width="24" height="24">
+                                    <input class="email" type="email" placeholder="ادخل بريدك الالكتروني">
+                                    <svg class="email-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                                       <path fill="none" d="M0 0h24v24H0z" />
                                       <path
                                           d="M18 8h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h2V7a6 6 0 1 1 12 0v1zm-7 7.732V18h2v-2.268a2 2 0 1 0-2 0zM16 8V7a4 4 0 1 0-8 0v1h8z" />
                                   </svg>
-                              </div>
-                              <div class="button-container">
-                                  <button class="subscribe-btn" type="submit">اشتراك</button>
-                              </div>
-                          </form>
+                                </div>
+                                <div class="button-container">
+                                    <button class="subscribe-btn" type="submit">اشتراك</button>
+                                </div>
+                            </form>
 
 
-                      </div>
-                      <div class="contact-us-container">
-                          <h4>تواصل معنا</h4>
-                          <hr>
-                          <a href="#" class="fa fa-facebook"></a>
-                          <a href="#" class="fa fa-twitter"></a>
-                          <a href="#" class="fa fa-youtube"></a>
-                          <a href="#" class="fa fa-instagram"></a>
+                        </div>
+                        <div class="contact-us-container">
+                            <h4>تواصل معنا</h4>
+                            <hr>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                            <a href="#" class="fa fa-instagram"></a>
 
-                          <a href="#" class="fa fa-linkedin"></a>
-                          <a href="#" class="fa fa-snapchat-ghost"></a>
-                          <!-- <img class="tiktok" src="assets/images/tiktok-brands.svg" height="15" width="15"> -->
+                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#" class="fa fa-snapchat-ghost"></a>
+                            <!-- <img class="tiktok" src="assets/images/tiktok-brands.svg" height="15" width="15"> -->
 
-                      </div>
-                  </div>
+                        </div>
+                    </div>
 
-                  <div class="footer-second-block-container">
-                      <h4>خدمة العملاء</h4>
-                      <hr>
-                      <ul>
-                          <li>
-                              <a href="#">مبيعات الشركات</a>
-                          </li>
-                          <li>
-                              <a href="#">الاسئلة المتكررة</a>
-                          </li>
-                          <li>
-                              <a href="#">دليل التسوق والمطبوعات</a>
-                          </li>
-                          <li>
-                              <a href="#">مواقع المعارض</a>
-                          </li>
-                          <li>
-                              <a href="#">سياسة الضمان</a>
-                          </li>
-                          <li>
-                              <a href="#">سياسة الاسترجاع والاستبدال</a>
-                          </li>
-                          <li>
-                              <a href="#">اتصل بنا ></a>
-                          </li>
-                          <li>
-                              <a href="#">9200000089</a>
-                          </li>
-                      </ul>
-                  </div>
-                  <div class="footer-third-block-container">
-                      <h4>خدمات جرير</h4>
-                      <hr>
-                      <ul>
-                          <li>
-                              <a href="#">خدمة تقسيط المشتريات</a>
-                          </li>
-                          <li>
-                              <a href="#">خدمات مابعد البيع</a>
-                          </li>
-                          <li>
-                              <a href="#">خدمات الحمابة الشاملة</a>
-                          </li>
-                          <li>
-                              <a href="#">خدمات أجهزة آبل</a>
-                          </li>
-                          <li>
-                              <a href="#">بطاقة خصم جرير</a>
-                          </li>
-                          <li>
-                              <a href="#">بطاقة جرير للهدايا</a>
-                          </li>
-
-
-
-                      </ul>
-
-                  </div>
-                  <div class="footer-fourth-block-container">
-                      <h4>روابط سريعة</h4>
-                      <hr>
-                      <ul>
-                          <li>
-                              <a href="#">إصدارات جرير</a>
-                          </li>
-                          <li>
-                              <a href="#"> قارئ جرير</a>
-                          </li>
-                          <li>
-                              <a href="#">شرطاء برامج المكافئات</a>
-                          </li>
-                          <li>
-                              <a href="#">خدمات شركات الاتصالات</a>
-                          </li>
+                    <div class="footer-second-block-container">
+                        <h4>خدمة العملاء</h4>
+                        <hr>
+                        <ul>
+                            <li>
+                                <a href="#">مبيعات الشركات</a>
+                            </li>
+                            <li>
+                                <a href="#">الاسئلة المتكررة</a>
+                            </li>
+                            <li>
+                                <a href="#">دليل التسوق والمطبوعات</a>
+                            </li>
+                            <li>
+                                <a href="#">مواقع المعارض</a>
+                            </li>
+                            <li>
+                                <a href="#">سياسة الضمان</a>
+                            </li>
+                            <li>
+                                <a href="#">سياسة الاسترجاع والاستبدال</a>
+                            </li>
+                            <li>
+                                <a href="#">اتصل بنا ></a>
+                            </li>
+                            <li>
+                                <a href="#">9200000089</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-third-block-container">
+                        <h4>خدمات جرير</h4>
+                        <hr>
+                        <ul>
+                            <li>
+                                <a href="#">خدمة تقسيط المشتريات</a>
+                            </li>
+                            <li>
+                                <a href="#">خدمات مابعد البيع</a>
+                            </li>
+                            <li>
+                                <a href="#">خدمات الحمابة الشاملة</a>
+                            </li>
+                            <li>
+                                <a href="#">خدمات أجهزة آبل</a>
+                            </li>
+                            <li>
+                                <a href="#">بطاقة خصم جرير</a>
+                            </li>
+                            <li>
+                                <a href="#">بطاقة جرير للهدايا</a>
+                            </li>
 
 
-                      </ul>
-                  </div>
-                  <div class="footer-fifth-block-container">
-                      <h4>عن جرير</h4>
-                      <hr>
-                      <ul>
-                          <li>
-                              <a href="#">من نحن</a>
-                          </li>
-                          <li>
-                              <a href="#">الحوكمة</a>
-                          </li>
-                          <li>
-                              <a href="#">علاقات المستخدمين والقارير</a>
-                          </li>
-                          <li>
-                              <a href="#">الاستدامة</a>
-                          </li>
-                          <li>
-                              <a href="#">الأخبار</a>
-                          </li>
-                          <li>
-                              <a href="#">فرص العمل</a>
-                              <hr>
 
-                          </li>
+                        </ul>
 
-                  </div>
-              </div>
-          </section>
-        
-      </footer>
-    
-    <script src="Design-Folder/js/app.js"></script>
-    <script src="Design-Folder/js/changlang.js"></script>
-    <script src="Design-Folder/js/slider.js"></script>
-    <script src="Design-Folder/js/counter&search.js"></script>
-    <script src="js/scripts.js"></script>
+                    </div>
+                    <div class="footer-fourth-block-container">
+                        <h4>روابط سريعة</h4>
+                        <hr>
+                        <ul>
+                            <li>
+                                <a href="#">إصدارات جرير</a>
+                            </li>
+                            <li>
+                                <a href="#"> قارئ جرير</a>
+                            </li>
+                            <li>
+                                <a href="#">شرطاء برامج المكافئات</a>
+                            </li>
+                            <li>
+                                <a href="#">خدمات شركات الاتصالات</a>
+                            </li>
 
-  </body>
+
+                        </ul>
+                    </div>
+                    <div class="footer-fifth-block-container">
+                        <h4>عن جرير</h4>
+                        <hr>
+                        <ul>
+                            <li>
+                                <a href="#">من نحن</a>
+                            </li>
+                            <li>
+                                <a href="#">الحوكمة</a>
+                            </li>
+                            <li>
+                                <a href="#">علاقات المستخدمين والقارير</a>
+                            </li>
+                            <li>
+                                <a href="#">الاستدامة</a>
+                            </li>
+                            <li>
+                                <a href="#">الأخبار</a>
+                            </li>
+                            <li>
+                                <a href="#">فرص العمل</a>
+                                <hr>
+
+                            </li>
+
+                    </div>
+                </div>
+            </section>
+
+        </footer>
+
+        <script src="Design-Folder/js/app.js"></script>
+        <script src="Design-Folder/js/changlang.js"></script>
+        <script src="Design-Folder/js/slider.js"></script>
+        <script src="Design-Folder/js/counter&search.js"></script>
+        <script src="js/scripts.js"></script>
+
+</body>
+
 </html>
