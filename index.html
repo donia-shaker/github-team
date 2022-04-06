@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="Design-Folder/css/all.min.css" />
+    <!-- CSS Normalized -->
+    <link rel="stylesheet" href="Design-Folder/css/normalized.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="Design-Folder/css/style.css" />
+    <link rel="stylesheet" href="Design-Folder/css/header,footer,book.css" />
+
+    <title>Electronic Library</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <nav>
+          <hr />
+          <i class="fas fa-bars first"></i>
+          <ul>
+            <li class="border">
+              <a>
+                <i class="fas fa-user"></i
+                ><a id="show-model"> ادخل لحسابك</a> او<a
+                  id="show-model-signup"
+                >
+                  سجل الان</a
+                >
+              </a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-star"></i>ألرئيسية</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-truck"></i>من نحن</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-shield-alt"></i>اتصل بنا</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-info-circle"></i>ألمسأعدة</a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fas fa-map-marker-alt"></i>سيأسة ألخصوصية</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="Design-Folder/images/flag.png" alt="" />أليمن YER</a
+              >
+            </li>
+            <li class="last">
+              <a href="">
+                <input
+                  type="checkbox"
+                  id="lang"
+                  style="display: none"
+                  onclick="changeLanguage();" />
+                <label for="lang" id="changLan" style="cursor: pointer"
+                  >English</label
+                ><i class="fas fa-language"></i
+              ></a>
+            </li>
+          </ul>
+          <hr />
+        </nav>
+        <!-- end nav -->
+        <!-- add model -->
+        <div class="model" id="model">
+          <div class="model-content">
+            <iframe id="signup" src="" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Start Slider Section -->
+    <section class="slide-show">
+      <div class="container">
+        <div class="slider">
+          <img src="Design-Folder/images/slide-one.jpg" alt="" />
+        </div>
+        <div class="slider">
+          <img src="Design-Folder/images/slide-two.jpg" alt="" />
+        </div>
+        <div class="slider">
+          <img src="Design-Folder/images/slide-three.jpg" alt="" />
+        </div>
+        <div class="slider">
+          <img src="Design-Folder/images/slide-four.jpg" alt="" />
+        </div>
+        <div class="slider">
+          <img src="Design-Folder/images/slide-five.jpg" alt="" />
+        </div>
+        <a class="prev" onclick="plusSlides(1)"
+          ><i class="fas fa-chevron-left"></i
+        ></a>
+        <a class="next" onclick="plusSlides(-1)"
+          ><i class="fas fa-chevron-right"></i
+        ></a>
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+      </div>
+    </section>
+    <script src="Design-Folder/js/app.js"></script>
+    <script src="Design-Folder/js/changlang.js"></script>
+    <script src="Design-Folder/js/slider.js"></script>
+    <script src="Design-Folder/js/counter&search.js"></script>
+  </body>
+</html>

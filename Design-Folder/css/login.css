@@ -1,0 +1,131 @@
+:root {
+  --main-color: #66738b;
+  --second-color: #eff2f7;
+}
+/* Start Global Element */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Ephesis", cursive;
+  font-family: "Source Serif Pro", serif;
+  position: relative;
+  direction: rtl;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Element */
+/* Start Login */
+section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  margin-top: 10px;
+  padding: 20px;
+  width: fit-content;
+  border: 1px solid var(--second-color);
+}
+.box,
+form {
+  text-align: center;
+  font-size: 22px;
+}
+form {
+  width: 500px;
+  position: relative;
+}
+h4 {
+  font-size: 22px;
+  margin-bottom: 60px;
+  color: #333;
+  border-bottom: 3px solid var(--second-color);
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+input {
+  border: none;
+  background-color: var(--second-color);
+  border-radius: 5px;
+  padding: 20px;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 10px;
+  outline: none;
+}
+span {
+  font-size: 16px;
+  color: blue;
+  top: 85px;
+  position: absolute;
+  left: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+input[type="submit"] {
+  background-color: rgb(211 51 51);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+}
+.logout p {
+  margin: 20px 0;
+  padding: 20px;
+  color: #777;
+}
+.logout a {
+  color: #777;
+  width: 250px;
+  padding: 10px;
+  border: 1px solid var(--second-color);
+  border-radius: 5px;
+  font-size: 22px;
+  box-shadow: 4px 4px 5px #aaa, -4px -4px 5px #eee;
+}
+@media (max-width: 540px) {
+  .box form,
+  a {
+    width: 90%;
+    font-size: 16px;
+  }
+}
+/* End Login */ ;

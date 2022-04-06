@@ -1,0 +1,72 @@
+/* Start classification Section */
+.classification .container {
+  color: #641e05;
+}
+.classification .container .content {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  color: #ccc;
+  overflow-x: auto;
+}
+.classification .container .box {
+  width: 120px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 1px 1px 10px 0px #ccc;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+  font-weight: bold;
+}
+.classification .container .box i {
+  width: 40px;
+  height: 40px;
+  padding: 9px 8px;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+}
+.classification .container .box span {
+  padding: 10px 0;
+}
+/* End classification Section */
+
+/* Start Photo Section */
+section.photo .line {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+section.photo img {
+  width: 100%;
+  margin: 10px 0 20px;
+}
+section.photo .line img {
+  width: 24%;
+}
+/* End Photo Section */
+
+section .container .title {
+  display: flex;
+  justify-content: space-between;
+}
+section .container .title a {
+  color: blue;
+}
+/* Books scroll */
+.timer .container .books,
+.one .container .books,
+.two .container .books,
+.three .container .books,
+.four .container .books,
+.five .container .books,
+.six .container .books {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}

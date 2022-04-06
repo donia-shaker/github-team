@@ -1,0 +1,127 @@
+/* start category section */
+/* start asid part */
+section.two .container {
+  display: flex;
+}
+@media (max-width: 767px) {
+  section.two .container {
+    flex-direction: column;
+  }
+}
+section.two .container aside {
+  width: 250px;
+  font-size: 14px;
+}
+section.two .container aside a {
+  color: blue;
+}
+section.two .container aside p.two {
+  padding: 10px;
+  color: green;
+  font-size: 26px;
+  border: 2px solid green;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+section.two .container aside p.two i {
+  margin-left: 10px;
+}
+section.two .container aside .box {
+  border: 1px solid var(--second-color);
+}
+section.two .container aside .box h4 {
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 10px;
+  margin-top: 10px;
+}
+section.two .container aside .box p {
+  font-size: 20px;
+  background-color: var(--second-color);
+  border-bottom: 1px solid #c4cad4cc;
+  color: var(--main-color);
+  padding: 10px 20px;
+  position: relative;
+}
+section.two .container aside .box p i {
+  position: absolute;
+  left: 20px;
+}
+section.two .container aside .box div {
+  padding: 20px;
+  background-color: white;
+  color: var(--main-color);
+}
+section.two .container aside .box div hr {
+  position: relative;
+  background: #777;
+  border: 5px solid #777;
+  margin-bottom: 10px;
+}
+section.two .container aside .box div hr::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  top: -10px;
+  left: -5px;
+}
+section.two .container aside .box div hr:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  top: -10px;
+  right: -5px;
+}
+section.two .container aside .box div span {
+  margin-left: 70px;
+}
+/* end aside part */
+/* start sort section */
+section.two .content {
+  width: 100%;
+}
+section.two .content .sort {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  justify-content: flex-end;
+  height: 70px;
+  padding: 15px 0;
+  font-size: 20px;
+  color: var(--main-color);
+}
+section.two .content .sort label {
+  margin-left: 10px;
+}
+section.two .content .sort select {
+  padding: 2px;
+  width: 150px;
+  color: var(--main-color);
+}
+section.two .more {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 24px;
+  cursor: pointer;
+}
+section.two .buy-from-us {
+  color: green;
+  padding: 20px 0;
+  font-size: 20px;
+  border-top: 20px solid #eee;
+  font-weight: bold;
+}
+/* end sort section */
+/* end category section */

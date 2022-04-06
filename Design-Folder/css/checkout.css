@@ -1,0 +1,182 @@
+:root {
+  --main-color-this-page: #444;
+  --second-color-this-page: #777;
+}
+/* start Checkout Section */
+section.checkout h1 {
+  color: var(--main-color-this-page);
+  margin: 160px 0 10px;
+}
+@media (max-width: 767px) {
+  section.checkout h1 {
+    margin-top: 100px;
+  }
+}
+section.checkout h1 span {
+  font-size: 20px;
+  margin-right: 5px;
+  color: var(--second-color-this-page);
+  font-weight: normal;
+}
+
+section.checkout .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+section.checkout .content .boxes {
+  color: var(--main-color-this-page);
+  width: 600px;
+}
+section.checkout .content .boxes .box {
+  padding: 10px;
+  border: 2px solid #eee;
+  margin: 15px 0;
+}
+section.checkout .content .boxes .box .top-part {
+  display: flex;
+}
+section.checkout .box .bottom-part {
+  font-size: 18px;
+  font-weight: bold;
+  border-top: 2px solid #ddd;
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+section.checkout .box .bottom-part i {
+  margin-left: 5px;
+  font-size: 8px;
+}
+section.checkout .content .boxes .box img {
+  margin: 0 20px;
+  width: 40px;
+  height: 50px;
+  position: relative;
+}
+section.checkout .content .boxes .box .text {
+  margin-left: 20px;
+  width: 70%;
+}
+section.checkout .content .boxes .box .text h2 {
+  margin: 5px 0;
+  font-size: 22px;
+}
+section.checkout .content .boxes .box .text span {
+  font-style: italic;
+  font-size: 13px;
+  color: var(--second-color-this-page);
+  padding: 10px 0;
+}
+section.checkout .content .boxes .box .text .note {
+  background-color: #fffce1;
+  border-right: 5px solid #ebc042;
+  padding: 10px;
+  margin: 10px 0;
+  line-height: 1;
+}
+section.checkout .content .boxes .box .text .note span {
+  padding: 5px 0;
+  color: var(--main-color-this-page);
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+}
+/* end middel part */
+
+/* start third part */
+section.checkout .content .boxes .box .cost .no {
+  color: #cc0f21;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+section.checkout .content .boxes .box .cost p span {
+  font-size: 14px;
+  font-weight: normal;
+}
+section.checkout .content .boxes .box .cost .count {
+  position: relative;
+  top: 15px;
+  width: 60px;
+}
+section.checkout .content .boxes .box .cost .count input[type="number"] {
+  width: 49px;
+  font-size: 20px;
+  height: 40px;
+  padding-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+}
+section.checkout .content .box .cost .count input[type="button"] {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 11px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  color: #666;
+  font-weight: bold;
+}
+section.checkout .content .box .cost .count input[type="button"]:last-child {
+  top: 20px;
+}
+
+/* Start Aside Section */
+section.checkout aside {
+  width: 400px;
+  border: 2px solid #eee;
+  padding: 20px;
+  height: fit-content;
+  margin-bottom: 10px;
+  margin: 15px;
+}
+section.checkout aside .info {
+  display: flex;
+  justify-content: space-between;
+}
+section.checkout aside .info p {
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+section.checkout aside .info span {
+  color: var(--second-color);
+  font-size: 12px;
+}
+section.checkout aside .info .green {
+  color: green;
+  font-size: 20px;
+}
+section.checkout aside .info h3,
+section.checkout aside .info .red {
+  color: #cc0f21;
+  font-size: 24px;
+}
+section.checkout aside .send p {
+  margin-top: 80px;
+  font-size: 16px;
+}
+section.checkout aside .send p span {
+  color: blue;
+}
+section.checkout aside a {
+  color: white;
+}
+section.checkout aside .send button {
+  cursor: pointer;
+  background-color: #cc0f21;
+  color: white;
+  font-size: 24px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+/* End Aside Section */
+
+/* End Checkout Section */
