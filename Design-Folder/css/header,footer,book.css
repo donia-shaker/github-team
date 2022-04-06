@@ -1,5 +1,6 @@
 :root {
   --main-color: #66738b;
+  --footer-dark-color:#333333;
   --second-color: #eff2f7;
   --text-align: right;
   --direction: rtl;
@@ -434,113 +435,29 @@ header .search a span {
 /* end Boxes part */
 
 /* Start Footer Section */
-footer {
-  background-color: #333;
+footer{
+ 
+  width: 100%;
+
 }
-footer .container {
-  padding: 20px 10px;
-  color: #878584;
+.footer-container{
+  background-color: var(--footer-dark-color);
+color: white;
+padding: 20px;
+/* display: grid;
+grid-template-columns: 25% 18% 18% 18% 20%;
+padding-bottom: 5px; */
+gap: 10px;
+display: flex;
 }
-footer .container .content {
-  display: flex;
-}
-footer .container .content aside {
-  margin: 5px 10px 5px;
-}
-footer .container .content aside form {
+/* .footer-first-block-container{
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  margin-top: 10px;
-  border: 1px solid #555;
-  width: 250px;
-  padding: 20px 10px 30px;
-  border-radius: 5px;
-}
-footer .container .content aside form input {
-  width: 99%;
-  padding: 5px;
-  margin-bottom: 5px;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-footer .container .content aside form input[type="submit"] {
-  width: 28%;
-}
-@media (max-width: 1000px) {
-  footer .container .content aside form {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  footer .container .content aside form input {
-    width: 70%;
-  }
-  footer .container .content {
-    flex-direction: column;
-  }
-  footer .container .content aside form input[type="submit"] {
-    width: 28%;
-  }
-  footer .container .box ul li {
-    display: none;
-  }
-}
-footer .container .content .boxes {
-  width: 100%;
-  display: grid;
-  padding: 5px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-}
-footer .container .box h4 {
-  border-bottom: 1px solid #555;
-  padding: 5px 0;
-  margin-bottom: 10px;
-  font-size: 18px;
-}
+justify-content: space-between;
+} */
+.footer-form-container{
+  width: 80%;
 
-footer .container .box li {
-  padding: 5px 0;
-}
-footer .container .box a {
-  color: #ccc;
-  font-weight: bold;
-}
-footer .container .last {
-  width: 250px;
-}
-footer .container .box .icon {
-  margin: 10px 0;
-  color: white;
-}
-footer .container .box .icon i {
-  margin: 0 1px;
-  padding: 5px;
-  border-radius: 50%;
-}
-
-footer .copy-right {
-  background-color: #eee;
-  color: #333;
-  padding: 10px 0 20px;
-}
-footer .copy-right .container {
-  display: flex;
-  justify-content: space-between;
-}
-footer .copy-right .container img {
-  height: 50px;
-}
-footer .copy-right .container p {
-  margin: 10px 0;
-}
-@media (max-width: 767px) {
-  footer .copy-right {
-    padding: 10px;
-  }
-  footer .copy-right .container {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
 }
 /* End Footer Section */
